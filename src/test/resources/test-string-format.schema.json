@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft/2019-09/schema",
+  "$id": "http://pwall.net/test-string-format",
+  "title": "Dummy",
+  "type": "object",
+  "properties": {
+    "dateTimeTest": {
+      "format": "date-time"
+    },
+    "dateTest": {
+      "format": "date"
+    },
+    "timeTest": {
+      "format": "time"
+    },
+    "durationTest": {
+      "format": "duration"
+    },
+    "uuidTest": {
+      "format": "uuid"
+    },
+    "uriTest": {
+      "format": "uri"
+    },
+    "uriReferenceTest": {
+      "format": "uri-reference"
+    },
+    "ipv4Test": {
+      "format": "ipv4"
+    },
+    "ipv6Test": {
+      "format": "ipv6"
+    },
+    "jsonPointerTest": {
+      "format": "json-pointer"
+    },
+    "relativeJsonPointerTest": {
+      "format": "relative-json-pointer"
+    }
+  }
+}
