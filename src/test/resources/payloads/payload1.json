@@ -1,0 +1,14 @@
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "address1": {
+    "street": "123",
+    "city": "Anytown",
+    "zip": "12345"
+  },
+  "address2": {
+    "street": "456",
+    "city": "Anytown",
+    "zip": "12345"
+  }
+}

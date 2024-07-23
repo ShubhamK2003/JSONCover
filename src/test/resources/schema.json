@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://example.com/user-profile-schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "address1": {
+      "$ref": "#address"
+    },
+    "address2": {
+      "$ref": "#address"
+    }
+  },
+  "$defs": {
+    "address": {
+      "$anchor": "address",
+      "type": "object",
+      "properties": {
+        "street": {
+          "type": "integer"
+        },
+        "city": {
+          "type": "string"
+        },
+        "zip": {
+          "type": "string"
+        }
+      },
+      "required": ["city", "zip", "street"]
+    }
+  }
+}

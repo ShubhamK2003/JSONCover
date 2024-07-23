@@ -1,0 +1,11 @@
+{
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "age": "twenty-five",
+  "email": "jane.smith@example.com",
+  "address": {
+    "street": "456 Oak St",
+    "city": "Othertown",
+    "postalCode": "67890"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "samyak",
+  "email": "john.doe@example.com",
+  "address1": {
+    "city": "Aston"
+  },
+  "address2": {
+    "city": "Shelbyville"
+  }
+}
